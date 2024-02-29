@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+.nav .nav-item .nav-link{
+    color: #171818;
+}
+
+.nav .nav-item  a:hover{
+    color: rgb(240, 233, 233);
+}
+#image{
+    background:linear-gradient(rgba(0,0,129,0.5),hsl(180, 13%, 10%)), url(images/w1.jpg);
+     height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+       
+}
+
+  .image-text{
+    padding-top: 223px;
+}
+/* services */
+ .carousel-item img{
+    height: 800px;
+    width: 300px;
+} 
+.carousel-img-size{
+    height: 100vh;
+
+}
+.carousel-item:hover .overlay{
+    opacity: 1;
+
+}
+ .overlay{
+    width: 100%;
+     height: 100%;
+     position: absolute;  
+    top: 0;
+    border-radius: 7px;
+     cursor: pointer; 
+    background: linear-gradient(rgba(0, 0, 277, 0.5),rgba(9, 9, 9, 1.7));
+     opacity: 0; 
+    transition: 1s;  
+} 
+
+.desc{
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 1s;
+    color: aliceblue;
+
+}
+.carousel-item:hover .desc{
+    bottom: 40%;
+    opacity: 1;
+} 
+/* testimonials */
+
+
+.card-body .fa-star{
+    color: goldenrod;
+}
+.col{
+    box-shadow: 0 5px 22px 5px #adb5bd;
+    cursor: pointer;
+    transition: 0.5s; 
+    border-radius: 8px;
+    
+}
+ .col:hover{
+    transform: translateY(9px);
+ }
+ /* contact us */
+ 
+.contact-left{
+  
+    padding: 40px; 
+   
+   /* margin-bottom: 20px; */
+   
+
+   
+ }
+
+.contact-row h1{
+    margin: 10px 0; 
+}
+.contact-left .fa{
+   font-size: 20px;
+   color: #009688;
+    margin: 10px; 
+
+}
+.links{
+   text-align: center;
+
+}
+.links .fa{
+   height: 40px;
+   width: 40px;
+   font-size: 20px;
+    line-height: 40px; 
+   border: 2px solid #009688;
+   color: #009688;
+   cursor: pointer;
+   transition: 0.5s;
+}
+.links .fa:hover{
+   background: #009688;
+   color: #fff;
+   transform: translateY(-7px);
+}
+
+ 
+ 
+
+
+ 
